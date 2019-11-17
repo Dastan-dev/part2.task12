@@ -1,0 +1,5 @@
+name = input("vvedite slovo: ")
+name.find("l")
+name.find("l", 3, len(name))
+print(name.find("f"))
+print(name.rfind("f"))
